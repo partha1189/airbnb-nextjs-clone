@@ -32,7 +32,7 @@ const Header = () => {
 
       {/* right */}
       <div className="flex items-center justify-end text-gray-500 space-x-4">
-        <p>Become a host</p>
+        <p className="hidden md:inline cursor-pointer">Become a host</p>
         <GlobeAltIcon className="h-6 cursor-pointer" />
         <div className="flex border-2 rounded-full items-center space-x-2 p-2">
           <MenuIcon className="h-6 cursor-pointer" />
